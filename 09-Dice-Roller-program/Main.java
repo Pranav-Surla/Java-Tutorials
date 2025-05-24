@@ -8,11 +8,11 @@ public class Main {
         int total=0;
         int i;
 
-        System.out.println("Enter the no of dices you want: ");
+        System.out.print("Enter the no of dices you want: ");
         no_of_Dices = scanner.nextInt();
 
         if (no_of_Dices > 0) {
-            System.out.println("You have rolled "+ no_of_Dices + " of Dices");
+            System.out.println("You have rolled "+ no_of_Dices + " Dices");
 
             for(i = 0; i < no_of_Dices; i++){
                 int roll = random.nextInt(1, 7);
@@ -21,7 +21,7 @@ public class Main {
                 total = total + roll;
                 
             } 
-            
+            System.out.println("Total:" + total);
             
         }
         else{
