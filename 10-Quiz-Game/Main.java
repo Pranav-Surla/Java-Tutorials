@@ -41,7 +41,7 @@ public class Main {
                 System.out.println(option);
 
             }
-            System.out.println("Enter your Gusses for the above questions:");
+            System.out.print("Enter your Gusses for the above question:");
             guess = scanner.nextInt();
 
             if (guess == answers[i]){
@@ -54,9 +54,10 @@ public class Main {
                
                 System.out.println("Wrong Answer");
             }
-            System.out.println("The Final score of your Quiz: " + score);
-
+            
         }
+
+        System.out.println("The Final score of your Quiz: " + score);
 
         scanner.close();
     }
