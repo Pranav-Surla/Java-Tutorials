@@ -61,11 +61,13 @@ class Rectangle extends Shape{
     void get_breadth(){
         System.out.println("Breadth = " + this.breadth);
     }
-    double set_length(){
-        return this.length;
+    void set_length(){
+        this.length = length;
+        System.out.println("Length changed to " + this.length);
     }
-    double set_breadth(){
-        return this.breadth;
+    void set_breadth(){
+        this.breadth = breadth;
+        System.out.println("Breadth changed to " + this.breadth);
     }
 
     @Override
